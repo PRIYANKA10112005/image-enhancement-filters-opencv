@@ -129,26 +129,24 @@ plt.subplot(133); plt.imshow(laplacian_operator,cmap='gray'); plt.title('Output 
 ##  Output
 
 ### Smoothing Filters
-
-- Averaging filter produces blurred image
+## Averaging filter produces blurred image
  <img width="1368" height="440" alt="image" src="https://github.com/user-attachments/assets/3ae6b5e9-6a36-43a9-a1ad-41164971f088" />
-
-- Weighted averaging provides smoother result with less distortion
+## Weighted averaging provides smoother result with less distortion
   <img width="1367" height="427" alt="image" src="https://github.com/user-attachments/assets/f1edb172-820c-4a00-98fd-cf24968b99a9" />
 
-- Gaussian filter preserves edges better while reducing noise
+## Gaussian filter preserves edges better while reducing noise
   <img width="1356" height="428" alt="image" src="https://github.com/user-attachments/assets/fe0626fc-6699-4e76-b789-82afadf859ad" />
 
-- Median filter removes salt-and-pepper noise effectively
+## Median filter removes salt-and-pepper noise effectively
   <img width="1362" height="436" alt="image" src="https://github.com/user-attachments/assets/62f74eb3-aaae-442f-9bf1-f1007723b2bc" />
  
 
 ###  Sharpening Filters
 
-- Laplacian kernel enhances edges and fine details
+## Laplacian kernel enhances edges and fine details
   <img width="1360" height="430" alt="image" src="https://github.com/user-attachments/assets/d565ea55-49a5-4a09-b893-e2c2eb646c44" />
 
-- Laplacian operator detects edges clearly in grayscale
+## Laplacian operator detects edges clearly in grayscale
   <img width="1355" height="297" alt="image" src="https://github.com/user-attachments/assets/3aabd933-2c5f-4f1d-b306-d011947c9048" />
 
 
